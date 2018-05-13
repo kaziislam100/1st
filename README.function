@@ -1,0 +1,22 @@
+# 1st
+
+<script>
+    
+    var numToGuess = 1;
+    
+ function yourGuess() {
+    guess = document.getElementById("guess").value;
+    guesses = document.getElementById("output");
+
+    if (guess == numToGuess) {
+        guesses.value = guesses.value + "\r" + "You got it!! ("+guess+")";
+    }
+
+     
+     else if (guess > numToGuess) {
+        guesses.value = guesses.value + "\r" + "UFF too high! ("+guess+")";
+    } else {
+        guesses.value = guesses.value + "\r" + "UFF too low! ("+guess+")";
+    } 
+}
+</script>
