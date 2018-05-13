@@ -1,3 +1,4 @@
+/*
 <!DOCTYPE html>
 <html>
 <body>
@@ -17,3 +18,4 @@ function myFunction() {
 
 </body>
 </html>
+*/
